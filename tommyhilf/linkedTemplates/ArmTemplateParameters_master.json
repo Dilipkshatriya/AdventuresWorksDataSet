@@ -1,0 +1,60 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "tommyhilf"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"ls_source_password": {
+			"value": ""
+		},
+		"ls_source1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://tommyhilf1.dfs.core.windows.net/"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "LAPTOP-6PAA5O3I\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"ls_source_properties_typeProperties_server": {
+			"value": "LAPTOP-6PAA5O3I\\SQLEXPRESS"
+		},
+		"ls_source_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"ls_source_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"ls_source1_properties_typeProperties_server": {
+			"value": "LAPTOP-6PAA5O3I\\SQLEXPRESS"
+		},
+		"ls_source1_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"ls_source1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
